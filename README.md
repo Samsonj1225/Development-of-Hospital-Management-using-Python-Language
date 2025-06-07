@@ -25,32 +25,36 @@ The interface displays records in a scrollable table and provides detailed previ
     - `disease`
     - `referred_by`
 
+### 2. Prepare the Python Environment
 
-2. Prepare the Python Environment
---> Make sure Python is installed.
---> Install the MySQL connector package:
-      pip install mysql-connector-python
---> Save the provided code in a file named, for example, Hospital Management.py.
+- Make sure Python is installed.
+- Install the MySQL connector package:
+  pip install mysql-connector-python
+- Save the provided code in a file named, for example, `Hospital Management.py`.
 
-3. Run the Application
---> Open a terminal or IDE.
---> Run the script:
-       Hospital Management.py
---> The application will open in full screen with a user-friendly GUI.
+### 3. Run the Application
 
-5. Using the GUI
---> Enter patient details in the left-side form fields.
---> Click “Save Patient Data” to store the record in the database.
---> Click “Patient Details” to view a formatted preview of the data.
---> Click “Modify” to update selected patient details using the Patient ID.
---> Click “Delete” to remove a record (requires Patient ID).
---> Click “Clear” to reset all input fields and preview.
---> Click “Exit” to close the application.
+- Open a terminal or IDE.
+- Run the script:
+  python "Hospital Management.py"
+- The application will open in full screen with a user-friendly GUI.
 
-5. Viewing Patient Records
---> The lower section displays a scrollable table of all records.
---> Clicking a row will autofill the form for quick editing or deleting.
+### 4. Using the GUI
 
-6. Persistent Data Storage
---> All data is stored in the MySQL database.
---> Records remain available even after restarting the program.
+- Enter patient details in the left-side form fields.
+- Click “Save Patient Data” to store the record in the database.
+- Click “Patient Details” to view a formatted preview of the data.
+- Click “Modify” to update selected patient details using the Patient ID.
+- Click “Delete” to remove a record (requires Patient ID).
+- Click “Clear” to reset all input fields and preview.
+- Click “Exit” to close the application.
+
+### 5. Viewing Patient Records
+
+- The lower section displays a scrollable table of all records.
+- Clicking a row will autofill the form for quick editing or deleting.
+
+### 6. Persistent Data Storage
+
+- All data is stored in the MySQL database.
+- Records remain available even after restarting the program.
